@@ -1,0 +1,24 @@
+﻿Build started 11.09.2020 11:35:35.
+     1>Project "C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Win32Project2_1.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Access to the path 'C:\USERS\MI\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\WIN32PROJECT2_1\DEBUG\WIN32PROJECT2_1.EXE' is denied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Access to the path 'C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Debug\Win32Project2_1.exe' is denied.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Win32Project2_1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Win32Project2_1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Win32Project2_1.cpp
+         Win32Project2_1.cpp
+     1>c:\users\mi\documents\visual studio 2012\projects\win32project2_1\win32project2_1.cpp(1): warning C4627: '#include <Windows.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\mi\documents\visual studio 2012\projects\win32project2_1\win32project2_1.cpp(63): warning C4101: 'des' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Win32Project2_1.res" Win32Project2_1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Debug\Win32Project2_1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Debug\Win32Project2_1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Debug\Win32Project2_1.lib" /MACHINE:X86 Debug\Win32Project2_1.res
+         Debug\stdafx.obj
+         Debug\Win32Project2_1.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Debug\Win32Project2_1.exe'
+     1>Done Building Project "C:\Users\mi\Documents\Visual Studio 2012\Projects\Win32Project2_1\Win32Project2_1.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.64
